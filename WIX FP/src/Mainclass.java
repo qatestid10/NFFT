@@ -53,7 +53,7 @@ public class Mainclass {
 		loginButton = driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/div/form/input"));
 		loginButton.click();
 	
-		System.out.println("Fianl Result");
+		System.out.println("Fianl Results");
 	
 		String actualpagetitle = "";
 		String expectedTitle = "My Account";
